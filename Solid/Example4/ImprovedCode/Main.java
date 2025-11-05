@@ -2,6 +2,8 @@ package LLD.Solid.Example4.ImprovedCode;
 
 import java.util.List;
 
+// SRP Example: Notification System adhering to SOLID principles
+
 public class Main {
     public static void main(String[] args) {
         NotificationCenter notificationCenter = new NotificationCenter();

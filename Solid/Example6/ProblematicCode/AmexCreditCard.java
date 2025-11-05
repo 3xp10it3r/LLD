@@ -1,0 +1,40 @@
+package LLD.Solid.Example6.ProblematicCode;
+
+public class AmexCreditCard extends CreditCard {
+
+    private String cardNumber;
+    private String cardHolderName;
+    private String expiryDate;
+    private int cvv;
+
+    @Override
+    public void swipeAndPay() {
+        // Implementation for swipe and pay
+    }
+
+    @Override
+    public void doRefund() {
+        // Implementation for refund
+    }
+
+    @Override
+    public void onlinePayment() {
+        // Implementation for online payment
+    }
+
+    @Override
+    public void tapAndPay() {
+        // Implementation for tap and pay
+    }
+
+    // @Override
+    // public void upiPayment() {
+    //     // Amex cards do not support UPI payments
+    // }
+
+    @Override
+    public void intlPayment() {
+        // Implementation for international payment
+    }
+    
+}
