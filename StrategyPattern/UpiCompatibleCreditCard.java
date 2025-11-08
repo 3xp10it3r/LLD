@@ -1,4 +1,4 @@
-package LLD.Solid.Example6.BetterCode;
+package LLD.StrategyPattern;
 
 public interface UpiCompatibleCreditCard {
     void upiPayment();
